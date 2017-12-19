@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>colorful background</title>
+	<link rel="stylesheet" type="text/css" href="./js/pintuer/pintuer.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<div class="container-layout padding-big-top">
+		<div class="container loginPanel radius-big box-shadow">
+			<div class="radius-circle head-pic box-shadow border">
+				<img src="./images/user.jpg" width="100" height="100">
+			</div>
+			<div class="line colorful-container-wrapper">
+				<div id="colorful-container" class="line colorful-container"></div>
+			</div>
+			
+			<div class="line login-form">
+				<form>
+					<input type="text" class="input" placeholder="用户名" />
+					<input type="password" class="input" placeholder="密码" />
+					<button class="button bg-main submitBtn">登录</button>
+				</form>
+			</div>
+
+			<div class="line loadingPanel">
+				<img src="./images/loading.gif" width="40" height="40">
+			</div>
+			<div class="line canclePanel">
+				<button class="button cancleBtn">取消</button>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./js/pixi.min.js"></script>
+<script type="text/javascript" src="./js/colorful-min.js"></script>
+<script type="text/javascript" src="./js/pintuer/jquery.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+</html>

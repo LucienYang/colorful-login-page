@@ -1,0 +1,82 @@
+.loginPanel{
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.colorful-container-wrapper{
+	height: 200px;
+	overflow: hidden;
+}
+.colorful-container{
+	margin-top: -200px;
+	margin-left: -200px;
+}
+.head-pic{
+	position: absolute;
+	top:150px;
+	left: 200px;
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+}
+.login-form{
+	margin-top:30px;
+	padding: 50px 80px;
+}
+.login-form input{
+	border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: unset;
+    box-shadow: unset;
+    margin-bottom: 20px;
+}
+.login-form .submitBtn{
+	width: 100%;
+	margin-top:20px;
+}
+
+.cancelBtn{
+	color: #fff;
+	position: absolute;
+	top: 400px;
+	border-color: #fff;
+	left: 200px;
+}
+@-webkit-keyframes bluePulse {
+    from { background-color: #007d9a; -webkit-box-shadow: 0 0 10px #333; }
+    50% { background-color: #2daebf; -webkit-box-shadow: 0 0 68px #2daebf; }
+    to { background-color: #007d9a; -webkit-box-shadow: 0 0 10px #333; }
+}
+.bluePulse {
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: bluePulse;
+    -webkit-animation-duration: 3s;
+}
+.loadingPanel{
+	display: none;
+	position: absolute;
+	top: 350px;
+	text-align: center;
+	width: 100%;
+}
+.canclePanel{
+	display: none;
+	position: absolute;
+	top: 420px;
+	text-align: center;
+	width: 100%;
+}
+.canclePanel .cancleBtn{
+	color:#fff;
+	border-color: #fff;
+	background-color: unset;
+}
+.canclePanel .cancleBtn:hover{
+	color:#111;
+	background-color: rgba(255,255,255,0.6);
+}
