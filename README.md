@@ -5,12 +5,12 @@
 
 使用非常简单，给一个id colorful-container
 首先引入js
-`html
+```html
 <script type="text/javascript" src="./js/pixi.min.js"></script>
 <script type="text/javascript" src="./js/colorful-min.js"></script>
-`
+```
 定义一个div，然后加载初始化js 
-`javascript
+```javascript
 colorfulBackground({
   container: document.getElementById('colorful-container'),
   animation: true,
@@ -18,7 +18,7 @@ colorfulBackground({
   grid:[3,2],
   speed:10
 });
-`
+```
 >使用的js库
 >[pixijs](http://www.pixijs.com/)
 >[colorful.js](http://www.zhangxinxu.com/study/201712/colorful-min.js)
