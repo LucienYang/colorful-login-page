@@ -1,8 +1,18 @@
-# 一个动态色彩流动的登录页面
+# 动态色彩流动的登录页面
 看了QQ 9.0 的登录页面，感觉还可以，自己也尝试去山寨一个~  
+![qq.png](http://upload-images.jianshu.io/upload_images/1784147-c745d3e8f0320588.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+###最后实现的效果
+###用js+css实现色彩动态的流动效果
+![image.png](http://upload-images.jianshu.io/upload_images/1784147-d86d6c21b3f3bae8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+###登录loading页面
+![image.png](http://upload-images.jianshu.io/upload_images/1784147-2a8c90670449f684.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 在线演示页面：[https://lucienyang.github.io/colorful-login-page/](https://lucienyang.github.io/colorful-login-page/)  
-
 使用非常简单，给一个id colorful-container
 首先引入js
 ```html

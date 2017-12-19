@@ -23,6 +23,7 @@
 	height: 100px;
 	width: 100px;
 	overflow: hidden;
+	background-color: #fff;
 }
 .login-form{
 	margin-top:30px;
